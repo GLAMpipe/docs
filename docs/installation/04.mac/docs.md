@@ -25,14 +25,14 @@ If you can't to use Docker (too old hardware), you can install node and MongoDB 
 3. Create data directory for GLAMpipe and set it as dataPath in config/config.js.
 
 
-        mkdir /Users/YOUR_USERNAME_HERE/GLAMpipe-data 
+        mkdir /Users/YOUR_USERNAME_HERE/data 
         
     Then edit "datapath" in config/config.js:
 
         // DATAPATH
         // - where GLAMpipe can strore project data
         // default: ""
-        var dataPath = "/Users/__YOUR_USERNAME_HERE__/GLAMpipe-data ;
+        var dataPath = "/Users/__YOUR_USERNAME_HERE__/data ;
 
 4. Install node dependencies
 

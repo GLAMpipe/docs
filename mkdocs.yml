@@ -1,12 +1,13 @@
 site_name: GLAMpipe
 nav:
   - Home: index.md
+  - Introduction: introduction/index.md
   - Getting started:
     - Installation: installation/index.md
-  - Usage: 
-    - Creating a project: workflow/create-project.md
-    - Import data: workflow/import.md
-  
+    - Create your first project: quickstart/create-project.md
+  - Usage:
+    - Create project: workflow/create-project/index.md
+
 theme:
   name: material
   features:
